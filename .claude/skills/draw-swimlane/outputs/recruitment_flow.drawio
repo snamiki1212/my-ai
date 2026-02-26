@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+
+    <!-- ===== スイムレーン1: 人事 ===== -->
+    <mxCell id="s1" value="人事" style="swimlane;startSize=30;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="30" y="30" width="1500" height="160" as="geometry" />
+    </mxCell>
+    <mxCell id="n1" value="開始" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="s1">
+      <mxGeometry x="20" y="55" width="80" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="n2" value="求人要件&#xa;確認" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="s1">
+      <mxGeometry x="150" y="55" width="120" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="n3" value="求人票作成&#xa;・公開" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="s1">
+      <mxGeometry x="330" y="55" width="120" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="n4" value="書類選考" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="s1">
+      <mxGeometry x="610" y="55" width="120" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="n5" value="書類選考&#xa;判定" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="s1">
+      <mxGeometry x="790" y="45" width="120" height="80" as="geometry" />
+    </mxCell>
+    <mxCell id="n6" value="面接日程&#xa;調整" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="s1">
+      <mxGeometry x="970" y="55" width="120" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="n7" value="内定通知&#xa;発送" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="s1">
+      <mxGeometry x="1150" y="55" width="120" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="n8" value="入社手続き" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="s1">
+      <mxGeometry x="1330" y="55" width="120" height="60" as="geometry" />
+    </mxCell>
+
+    <!-- ===== スイムレーン2: 現場マネージャー ===== -->
+    <mxCell id="s2" value="現場マネージャー" style="swimlane;startSize=30;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="30" y="190" width="1500" height="180" as="geometry" />
+    </mxCell>
+    <mxCell id="n9" value="採用要件&#xa;定義" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="s2">
+      <mxGeometry x="150" y="60" width="120" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="n10" value="1次面接&#xa;実施" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="s2">
+      <mxGeometry x="970" y="60" width="120" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="n11" value="最終面接&#xa;判定" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" vertex="1" parent="s2">
+      <mxGeometry x="1150" y="50" width="120" height="80" as="geometry" />
+    </mxCell>
+
+    <!-- ===== スイムレーン3: 応募者 ===== -->
+    <mxCell id="s3" value="応募者" style="swimlane;startSize=30;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="30" y="370" width="1500" height="160" as="geometry" />
+    </mxCell>
+    <mxCell id="n12" value="求人閲覧&#xa;エントリー" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" vertex="1" parent="s3">
+      <mxGeometry x="430" y="55" width="120" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="n13" value="書類提出" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" vertex="1" parent="s3">
+      <mxGeometry x="610" y="55" width="120" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="n14" value="面接参加" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" vertex="1" parent="s3">
+      <mxGeometry x="970" y="55" width="120" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="n15" value="内定承諾" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" vertex="1" parent="s3">
+      <mxGeometry x="1150" y="55" width="120" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="n16" value="入社" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" vertex="1" parent="s3">
+      <mxGeometry x="1390" y="55" width="80" height="60" as="geometry" />
+    </mxCell>
+
+    <!-- ===== エッジ ===== -->
+    <!-- 人事内 -->
+    <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="n1" target="n2" parent="s1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="n2" target="n3" parent="s1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="n4" target="n5" parent="s1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- クロスレーン -->
+    <!-- 現場MG 採用要件定義 → 人事 求人票作成 -->
+    <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="n9" target="n3" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <!-- 求人票公開 → 応募者エントリー -->
+    <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="n3" target="n12" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <!-- 応募者 書類提出 → 人事 書類選考 -->
+    <mxCell id="e6" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="n13" target="n4" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <!-- 書類選考判定 OK → 面接日程調整 -->
+    <mxCell id="e7" value="通過" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="n5" target="n6" parent="s1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <!-- 書類選考判定 NG → 不合格通知（省略・終了） -->
+    <!-- 面接日程調整 → 応募者 面接参加 -->
+    <mxCell id="e8" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="n6" target="n14" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <!-- 応募者 面接参加 → MG 1次面接 -->
+    <mxCell id="e9" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="n14" target="n10" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <!-- MG 最終面接判定 → 人事 内定通知 -->
+    <mxCell id="e10" value="内定" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="n11" target="n7" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <!-- 人事 内定通知 → 応募者 内定承諾 -->
+    <mxCell id="e11" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="n7" target="n15" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <!-- 応募者 内定承諾 → 人事 入社手続き -->
+    <mxCell id="e12" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="n15" target="n8" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <!-- 人事 入社手続き → 応募者 入社 -->
+    <mxCell id="e13" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="n8" target="n16" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <!-- 1次面接 → 最終面接判定 -->
+    <mxCell id="e14" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="n10" target="n11" parent="s2">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <!-- エントリー → 書類提出 -->
+    <mxCell id="e15" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="n12" target="n13" parent="s3">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+  </root>
+</mxGraphModel>

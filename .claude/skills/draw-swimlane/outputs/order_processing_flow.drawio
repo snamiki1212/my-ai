@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+
+    <!-- ===== スイムレーン1: 営業 (horizontal=0 → ラベル左側) ===== -->
+    <mxCell id="s1" value="営業" style="swimlane;startSize=120;horizontal=0;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+      <mxGeometry x="30" y="30" width="1560" height="160" as="geometry" />
+    </mxCell>
+    <!-- ノードはx=130以上（startSize=120のラベル列の外側） -->
+    <mxCell id="n1" value="開始" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="s1">
+      <mxGeometry x="130" y="50" width="80" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="n2" value="注文受領" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="s1">
+      <mxGeometry x="270" y="50" width="120" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="n3" value="受注確認&#xa;(数量・納期)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="s1">
+      <mxGeometry x="450" y="50" width="120" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="n4" value="社内承認申請" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="s1">
+      <mxGeometry x="630" y="50" width="120" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="n5" value="修正・再申請" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="s1">
+      <mxGeometry x="810" y="50" width="120" height="60" as="geometry" />
+    </mxCell>
+
+    <!-- ===== スイムレーン2: 承認者 ===== -->
+    <mxCell id="s2" value="承認者" style="swimlane;startSize=120;horizontal=0;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+      <mxGeometry x="30" y="190" width="1560" height="180" as="geometry" />
+    </mxCell>
+    <mxCell id="n6" value="承認審査" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="s2">
+      <mxGeometry x="630" y="60" width="120" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="n7" value="承認判定" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" vertex="1" parent="s2">
+      <mxGeometry x="810" y="50" width="120" height="80" as="geometry" />
+    </mxCell>
+    <mxCell id="n8" value="製造指示書&#xa;作成" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="s2">
+      <mxGeometry x="990" y="60" width="130" height="60" as="geometry" />
+    </mxCell>
+
+    <!-- ===== スイムレーン3: 製造部門 ===== -->
+    <mxCell id="s3" value="製造部門" style="swimlane;startSize=120;horizontal=0;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+      <mxGeometry x="30" y="370" width="1560" height="160" as="geometry" />
+    </mxCell>
+    <mxCell id="n9" value="製造指示&#xa;受領" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" vertex="1" parent="s3">
+      <mxGeometry x="990" y="50" width="130" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="n10" value="製造・組立" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" vertex="1" parent="s3">
+      <mxGeometry x="1180" y="50" width="120" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="n11" value="品質検査&#xa;・出荷" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" vertex="1" parent="s3">
+      <mxGeometry x="1360" y="50" width="130" height="60" as="geometry" />
+    </mxCell>
+
+    <!-- ===== スイムレーン4: 経理部門 ===== -->
+    <mxCell id="s4" value="経理部門" style="swimlane;startSize=120;horizontal=0;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+      <mxGeometry x="30" y="530" width="1560" height="160" as="geometry" />
+    </mxCell>
+    <mxCell id="n12" value="請求書作成" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;" vertex="1" parent="s4">
+      <mxGeometry x="1180" y="50" width="120" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="n13" value="請求書発行" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;" vertex="1" parent="s4">
+      <mxGeometry x="1360" y="50" width="120" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="n14" value="完了" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=12;" vertex="1" parent="s4">
+      <mxGeometry x="1500" y="50" width="80" height="60" as="geometry" />
+    </mxCell>
+
+    <!-- ===== 同一レーン内エッジ ===== -->
+    <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" edge="1" source="n1" target="n2" parent="s1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" edge="1" source="n2" target="n3" parent="s1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" edge="1" source="n3" target="n4" parent="s1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" edge="1" source="n6" target="n7" parent="s2">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e6" value="OK" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" edge="1" source="n7" target="n8" parent="s2">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" edge="1" source="n9" target="n10" parent="s3">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" edge="1" source="n10" target="n11" parent="s3">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" edge="1" source="n12" target="n13" parent="s4">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" edge="1" source="n13" target="n14" parent="s4">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- ===== クロスレーンエッジ (parent="1") ===== -->
+    <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" edge="1" source="n4" target="n6" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e7" value="NG" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" edge="1" source="n7" target="n5" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" edge="1" source="n5" target="n6" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" edge="1" source="n8" target="n9" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;" edge="1" source="n11" target="n12" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+  </root>
+</mxGraphModel>

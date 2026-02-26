@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+  <root>
+    <mxCell id="0" />
+    <mxCell id="1" parent="0" />
+
+    <!-- ===== スイムレーン1: 監視チーム ===== -->
+    <mxCell id="s1" value="監視チーム" style="swimlane;startSize=30;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="30" y="30" width="1400" height="160" as="geometry" />
+    </mxCell>
+    <mxCell id="n1" value="アラート&#xa;検知" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="s1">
+      <mxGeometry x="20" y="55" width="100" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="n2" value="重大障害&#xa;判定" style="rhombus;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="s1">
+      <mxGeometry x="180" y="45" width="120" height="80" as="geometry" />
+    </mxCell>
+    <mxCell id="n3" value="エスカレー&#xa;ション通知" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="s1">
+      <mxGeometry x="360" y="55" width="120" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="n4" value="継続監視" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="s1">
+      <mxGeometry x="560" y="55" width="120" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="n5" value="復旧確認" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="s1">
+      <mxGeometry x="1060" y="55" width="120" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="n6" value="インシデント&#xa;クローズ" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;" vertex="1" parent="s1">
+      <mxGeometry x="1260" y="55" width="110" height="60" as="geometry" />
+    </mxCell>
+
+    <!-- ===== スイムレーン2: エンジニア ===== -->
+    <mxCell id="s2" value="エンジニア" style="swimlane;startSize=30;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="30" y="190" width="1400" height="200" as="geometry" />
+    </mxCell>
+    <mxCell id="n7" value="通知受信&#xa;初動対応" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="s2">
+      <mxGeometry x="360" y="70" width="120" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="n8" value="原因調査" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="s2">
+      <mxGeometry x="560" y="70" width="120" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="n9" value="暫定対応&#xa;実施" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="s2">
+      <mxGeometry x="740" y="70" width="120" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="n10" value="復旧成功?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" vertex="1" parent="s2">
+      <mxGeometry x="920" y="60" width="120" height="80" as="geometry" />
+    </mxCell>
+    <mxCell id="n11" value="根本原因&#xa;修正・デプロイ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="s2">
+      <mxGeometry x="1100" y="70" width="130" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="n12" value="事後レポート&#xa;作成" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;" vertex="1" parent="s2">
+      <mxGeometry x="1280" y="70" width="120" height="60" as="geometry" />
+    </mxCell>
+
+    <!-- ===== スイムレーン3: マネージャー ===== -->
+    <mxCell id="s3" value="マネージャー" style="swimlane;startSize=30;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;fontSize=12;" vertex="1" parent="1">
+      <mxGeometry x="30" y="390" width="1400" height="160" as="geometry" />
+    </mxCell>
+    <mxCell id="n13" value="障害報告&#xa;受領" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" vertex="1" parent="s3">
+      <mxGeometry x="360" y="55" width="120" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="n14" value="関係者への&#xa;影響通知" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" vertex="1" parent="s3">
+      <mxGeometry x="560" y="55" width="120" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="n15" value="リソース確保&#xa;・調整" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" vertex="1" parent="s3">
+      <mxGeometry x="740" y="55" width="120" height="60" as="geometry" />
+    </mxCell>
+    <mxCell id="n16" value="クローズ&#xa;承認" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;" vertex="1" parent="s3">
+      <mxGeometry x="1060" y="55" width="120" height="60" as="geometry" />
+    </mxCell>
+
+    <!-- ===== エッジ（監視チーム内） ===== -->
+    <mxCell id="e1" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="n1" target="n2" parent="s1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e2" value="重大" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="n2" target="n3" parent="s1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e3" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="n3" target="n4" parent="s1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e4" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="n5" target="n6" parent="s1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+    <!-- エッジ（クロスレーン） -->
+    <!-- 監視チーム エスカレ → エンジニア 初動 -->
+    <mxCell id="e5" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="n3" target="n7" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <!-- 監視チーム エスカレ → MG 報告受領 -->
+    <mxCell id="e6" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="n3" target="n13" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <!-- エンジニア 初動 → 原因調査 -->
+    <mxCell id="e7" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="n7" target="n8" parent="s2">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <!-- 原因調査 → 暫定対応 -->
+    <mxCell id="e8" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="n8" target="n9" parent="s2">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <!-- MG 影響通知 → リソース確保 -->
+    <mxCell id="e9" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="n13" target="n14" parent="s3">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <mxCell id="e10" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="n14" target="n15" parent="s3">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <!-- 暫定対応 → 復旧成功判定 -->
+    <mxCell id="e11" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="n9" target="n10" parent="s2">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <!-- 復旧成功OK → 根本修正 -->
+    <mxCell id="e12" value="成功" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="n10" target="n11" parent="s2">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <!-- 復旧失敗 → 原因調査へ戻る -->
+    <mxCell id="e13" value="失敗" style="edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=1;" edge="1" source="n10" target="n8" parent="s2">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <!-- 根本修正 → 事後レポート -->
+    <mxCell id="e14" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="n11" target="n12" parent="s2">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <!-- 根本修正 → 監視チーム 復旧確認 -->
+    <mxCell id="e15" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="n11" target="n5" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <!-- 監視チーム 復旧確認 → MG クローズ承認 -->
+    <mxCell id="e16" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="n5" target="n16" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+    <!-- MG クローズ承認 → インシデントクローズ -->
+    <mxCell id="e17" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="n16" target="n6" parent="1">
+      <mxGeometry relative="1" as="geometry" />
+    </mxCell>
+
+  </root>
+</mxGraphModel>
