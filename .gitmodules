@@ -1,0 +1,3 @@
+[submodule "submodules/bluage"]
+	path = submodules/bluage
+	url = https://github.com/SSK-TBD/bluage
